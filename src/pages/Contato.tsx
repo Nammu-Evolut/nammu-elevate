@@ -143,7 +143,7 @@ const ContatoPage = () => {
       <section className="py-16">
         <div className="container">
           <p className="font-body text-[15px] text-text-secondary text-center">
-            A Nammu atende presencialmente em São Paulo e remotamente em todo o Brasil.
+            A Nammu atua de forma híbrida no Brasil e outros países.
           </p>
         </div>
       </section>
