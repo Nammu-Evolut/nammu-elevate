@@ -81,6 +81,16 @@ const ContatoPage = () => {
                   maxLength={255}
                   className="w-full bg-elevated border border-border rounded-md px-4 py-3 font-body text-base text-foreground placeholder:text-text-muted focus:border-primary focus:outline-none transition-colors"
                   placeholder="seu@email.com"
+              />
+              </div>
+              <div>
+                <label className="font-body text-sm text-text-secondary mb-1.5 block">Celular</label>
+                <input
+                  name="celular"
+                  type="tel"
+                  maxLength={20}
+                  className="w-full bg-elevated border border-border rounded-md px-4 py-3 font-body text-base text-foreground placeholder:text-text-muted focus:border-primary focus:outline-none transition-colors"
+                  placeholder="(11) 99999-9999"
                 />
               </div>
               <div>
