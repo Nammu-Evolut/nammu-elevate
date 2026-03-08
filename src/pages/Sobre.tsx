@@ -28,7 +28,7 @@ const SobrePage = () => (
           "Não somos uma empresa de frameworks enlatados ou decks bonitos. Somos profissionais que já estiveram do lado de quem executa."
         </blockquote>
         <p className="font-body text-base text-text-secondary leading-[1.65]">
-          A Nammu nasceu da crença de que o desenvolvimento real acontece no trabalho, não em sala de aula. Trabalhamos lado a lado com as pessoas e os times, no contexto deles, com os desafios deles.
+          A Nammu nasceu da crença de que o desenvolvimento real acontece na prática. Trabalhamos lado a lado com líderes e equipes, no contexto deles, com os desafios deles.
         </p>
       </div>
     </section>
