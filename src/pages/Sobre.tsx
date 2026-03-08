@@ -2,6 +2,8 @@ import { Link } from "react-router-dom";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import CtaBanner from "@/components/CtaBanner";
+import andressaPhoto from "@/assets/andressa.png";
+import marcoPhoto from "@/assets/marco.jpg";
 
 const SobrePage = () => (
   <>
@@ -41,21 +43,17 @@ const SobrePage = () => (
         <div className="mt-12 grid md:grid-cols-2 gap-8">
           {/* Andressa */}
           <div className="bg-surface border border-border rounded-lg p-8">
-            <div className="w-20 h-20 rounded-full bg-elevated flex items-center justify-center mb-6">
-              <span className="font-heading text-2xl font-bold text-text-secondary">A</span>
-            </div>
+            <img src={andressaPhoto} alt="Andressa Chiara" className="w-20 h-20 rounded-full object-cover mb-6" />
             <h3 className="font-heading text-[22px] font-bold">Andressa Chiara</h3>
             <p className="mt-1 font-body font-medium text-sm text-primary">Co-fundadora</p>
             <p className="mt-4 font-body text-[15px] text-text-secondary leading-relaxed">
-              Estrategista de produto e negócios com mais de 12 anos de experiência. Especialista em gestão de produto, OKRs, Flight Levels e liderança de times de alta performance.
+              Mais de 15 anos de experiência em estratégia de produto, negócios e desenvolvimento de lideranças. Especialista em gestão de produto, OKRs, Flight Levels e Fit for Purpose, e autora de quatro livros sobre produto e estratégia. Opera como practitioner e como educadora: une o que aprende no trabalho ao que publica e ensina.
             </p>
           </div>
 
           {/* Marco */}
           <div className="bg-surface border border-border rounded-lg p-8">
-            <div className="w-20 h-20 rounded-full bg-elevated flex items-center justify-center mb-6">
-              <span className="font-heading text-2xl font-bold text-text-secondary">M</span>
-            </div>
+            <img src={marcoPhoto} alt="Marco Dubovski" className="w-20 h-20 rounded-full object-cover mb-6" />
             <h3 className="font-heading text-[22px] font-bold">Marco Dubovski</h3>
             <p className="mt-1 font-body font-medium text-sm text-primary">Co-fundador</p>
             <p className="mt-4 font-body text-[15px] text-text-secondary leading-relaxed">
