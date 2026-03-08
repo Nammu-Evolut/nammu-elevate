@@ -6,7 +6,7 @@ const CtaBanner = () => (
         Fale com a Nammu e entenda qual serviço faz sentido para o seu momento.
       </p>
       <a
-        href="mailto:contato@nammuevolut.com"
+        href="/contato"
         className="mt-8 inline-block bg-primary text-primary-foreground font-body font-medium text-base px-9 py-4 rounded-md hover:bg-[#7c5cff] transition-colors"
       >
         Agendar uma conversa

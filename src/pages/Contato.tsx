@@ -20,6 +20,8 @@ const ContatoPage = () => {
     const data = new FormData(form);
 
     try {
+      const assunto = data.get("assunto") as string;
+      data.set("_subject", `[Nammu] ${assunto}`);
       await fetch("https://formspree.io/f/xbdzlead", {
         method: "POST",
         body: data,
