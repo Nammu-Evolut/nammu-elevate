@@ -55,7 +55,7 @@ const SobrePage = () => (
           <div className="bg-surface border border-border rounded-lg p-8">
             <img src={marcoPhoto} alt="Marco Dubovski" className="w-20 h-20 rounded-full object-cover mb-6" />
             <h3 className="font-heading text-[22px] font-bold">Marco Dubovski</h3>
-            <p className="mt-1 font-body font-medium text-sm text-primary">Co-fundador</p>
+            <p className="mt-1 font-body font-medium text-sm text-primary">Cofounder</p>
             <p className="mt-4 font-body text-[15px] text-text-secondary leading-relaxed">
               Mais de 20 anos de experiência em produto, inovação e negócios, com passagens por tecnologia, serviços financeiros e e-commerce. Especialista em OKRs, Flight Levels e Fit for Purpose, com certificação internacional como trainer. Conecta estratégia e execução com clareza: do boardroom ao chão de operação.
             </p>
