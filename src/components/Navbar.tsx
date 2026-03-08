@@ -1,16 +1,6 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
-
-const NammuLogo = () => (
-  <span className="font-heading text-[22px] font-bold text-foreground relative">
-    NAM
-    <span className="relative">
-      M
-      <span className="absolute -top-3 left-1/2 -translate-x-1/2 text-primary text-[10px]">*</span>
-    </span>
-    U
-  </span>
-);
+import nammuLogo from "@/assets/nammu-logo.png";
 
 const navLinks = [
   { label: "Sobre", href: "#sobre" },
@@ -25,7 +15,9 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 h-[72px] bg-background border-b border-border">
       <div className="container h-full flex items-center justify-between">
-        <a href="#"><NammuLogo /></a>
+        <a href="#">
+          <img src={nammuLogo} alt="Nammu" className="h-8" />
+        </a>
 
         {/* Desktop */}
         <div className="hidden md:flex items-center gap-8">
