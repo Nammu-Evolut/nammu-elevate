@@ -53,9 +53,7 @@ const SobrePage = () => (
 
           {/* Marco */}
           <div className="bg-surface border border-border rounded-lg p-8">
-            <div className="w-20 h-20 rounded-full bg-elevated flex items-center justify-center mb-6">
-              <span className="font-heading text-2xl font-bold text-text-secondary">M</span>
-            </div>
+            <img src={marcoPhoto} alt="Marco Dubovski" className="w-20 h-20 rounded-full object-cover mb-6" />
             <h3 className="font-heading text-[22px] font-bold">Marco Dubovski</h3>
             <p className="mt-1 font-body font-medium text-sm text-primary">Co-fundador</p>
             <p className="mt-4 font-body text-[15px] text-text-secondary leading-relaxed">
