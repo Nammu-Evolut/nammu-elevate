@@ -86,9 +86,7 @@ const ConteudoPage = () => (
         <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {books.map((book) => (
             <div key={book.title} className="bg-surface border border-border rounded-lg p-6">
-              <div className="w-[120px] h-[160px] bg-elevated rounded flex items-center justify-center mx-auto">
-                <span className="font-body text-xs text-text-muted text-center px-2">Capa</span>
-              </div>
+              <img src={book.cover} alt={book.title} className="w-[120px] h-[160px] object-cover rounded mx-auto" />
               <h3 className="mt-4 font-heading text-[15px] font-bold leading-snug">{book.title}</h3>
               <p className="mt-1 font-body text-[13px] text-text-muted">Andressa Chiara</p>
               <a
