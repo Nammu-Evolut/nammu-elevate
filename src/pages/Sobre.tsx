@@ -45,7 +45,7 @@ const SobrePage = () => (
           <div className="bg-surface border border-border rounded-lg p-8">
             <img src={andressaPhoto} alt="Andressa Chiara" className="w-20 h-20 rounded-full object-cover mb-6" />
             <h3 className="font-heading text-[22px] font-bold">Andressa Chiara</h3>
-            <p className="mt-1 font-body font-medium text-sm text-primary">Co-fundadora</p>
+            <p className="mt-1 font-body font-medium text-sm text-primary">Cofounder</p>
             <p className="mt-4 font-body text-[15px] text-text-secondary leading-relaxed">
               Mais de 15 anos de experiência em estratégia de produto, negócios e desenvolvimento de lideranças. Especialista em gestão de produto, OKRs, Flight Levels e Fit for Purpose, e autora de quatro livros sobre produto e estratégia. Opera como practitioner e como educadora: une o que aprende no trabalho ao que publica e ensina.
             </p>
