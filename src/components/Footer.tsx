@@ -1,20 +1,11 @@
-const NammuLogo = () => (
-  <span className="font-heading text-xl font-bold text-foreground relative">
-    NAM
-    <span className="relative">
-      M
-      <span className="absolute -top-2.5 left-1/2 -translate-x-1/2 text-primary text-[10px]">*</span>
-    </span>
-    U
-  </span>
-);
+import nammuLogo from "@/assets/nammu-logo.png";
 
 const Footer = () => (
   <footer className="bg-surface border-t border-border pt-16 pb-8">
     <div className="container">
       <div className="grid md:grid-cols-3 gap-12">
         <div>
-          <NammuLogo />
+          <img src={nammuLogo} alt="Nammu" className="h-7" />
           <p className="mt-4 font-body text-sm text-text-muted">
             Desenvolvemos lideranças e negócios de alto impacto.
           </p>
