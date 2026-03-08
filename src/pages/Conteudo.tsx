@@ -2,23 +2,31 @@ import { Linkedin } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import CtaBanner from "@/components/CtaBanner";
+import capaLideranca from "@/assets/capa-lideranca.png";
+import capaOkrs from "@/assets/capa-okrs.png";
+import capaDiscovery from "@/assets/capa-discovery.jpg";
+import capaHipoteses from "@/assets/capa-hipoteses.png";
 
 const books = [
   {
     title: "Liderança por Definição",
     url: "https://www.amazon.com.br/dp/B0CYHL7TRB/",
+    cover: capaLideranca,
   },
   {
     title: "OKR: Estratégia e Negócios para Transformação",
     url: "https://www.amazon.com.br/dp/B09HN54XDS/",
+    cover: capaOkrs,
   },
   {
     title: "Produto Ágil: Discovery",
     url: "https://www.amazon.com.br/dp/B07HD2D8YW/",
+    cover: capaDiscovery,
   },
   {
     title: "Produto Ágil: Testando Hipóteses",
     url: "https://www.amazon.com.br/dp/B07VJZSXGZ/",
+    cover: capaHipoteses,
   },
 ];
 
