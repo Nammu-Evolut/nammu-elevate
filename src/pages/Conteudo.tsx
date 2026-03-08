@@ -2,23 +2,31 @@ import { Linkedin } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import CtaBanner from "@/components/CtaBanner";
+import capaLideranca from "@/assets/capa-lideranca.png";
+import capaOkrs from "@/assets/capa-okrs.png";
+import capaDiscovery from "@/assets/capa-discovery.jpg";
+import capaHipoteses from "@/assets/capa-hipoteses.png";
 
 const books = [
   {
     title: "Liderança por Definição",
     url: "https://www.amazon.com.br/dp/B0CYHL7TRB/",
+    cover: capaLideranca,
   },
   {
     title: "OKR: Estratégia e Negócios para Transformação",
     url: "https://www.amazon.com.br/dp/B09HN54XDS/",
+    cover: capaOkrs,
   },
   {
     title: "Produto Ágil: Discovery",
     url: "https://www.amazon.com.br/dp/B07HD2D8YW/",
+    cover: capaDiscovery,
   },
   {
     title: "Produto Ágil: Testando Hipóteses",
     url: "https://www.amazon.com.br/dp/B07VJZSXGZ/",
+    cover: capaHipoteses,
   },
 ];
 
@@ -78,9 +86,7 @@ const ConteudoPage = () => (
         <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {books.map((book) => (
             <div key={book.title} className="bg-surface border border-border rounded-lg p-6">
-              <div className="w-[120px] h-[160px] bg-elevated rounded flex items-center justify-center mx-auto">
-                <span className="font-body text-xs text-text-muted text-center px-2">Capa</span>
-              </div>
+              <img src={book.cover} alt={book.title} className="w-[120px] h-[160px] object-cover rounded mx-auto" />
               <h3 className="mt-4 font-heading text-[15px] font-bold leading-snug">{book.title}</h3>
               <p className="mt-1 font-body text-[13px] text-text-muted">Andressa Chiara</p>
               <a
