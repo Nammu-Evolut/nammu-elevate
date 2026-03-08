@@ -5,7 +5,7 @@ const Footer = () => (
     <div className="container">
       <div className="grid md:grid-cols-3 gap-12">
         <div>
-          <img src={nammuLogo} alt="Nammu" className="h-7" />
+          <img src={nammuLogo} alt="Nammu" className="h-9" />
           <p className="mt-4 font-body text-sm text-text-muted">
             Desenvolvemos lideranças e negócios de alto impacto.
           </p>

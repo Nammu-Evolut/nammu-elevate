@@ -16,7 +16,7 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 h-[72px] bg-background border-b border-border">
       <div className="container h-full flex items-center justify-between">
         <a href="#">
-          <img src={nammuLogo} alt="Nammu" className="h-8" />
+          <img src={nammuLogo} alt="Nammu" className="h-10" />
         </a>
 
         {/* Desktop */}
