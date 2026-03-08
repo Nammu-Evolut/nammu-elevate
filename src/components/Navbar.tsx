@@ -3,10 +3,10 @@ import { Menu, X } from "lucide-react";
 import nammuLogo from "@/assets/nammu-logo.png";
 
 const navLinks = [
-  { label: "Sobre", href: "#sobre" },
+  { label: "Sobre", href: "/sobre" },
   { label: "Serviços", href: "/servicos" },
-  { label: "Conteúdo", href: "#conteudo" },
-  { label: "Contato", href: "#contato" },
+  { label: "Conteúdo", href: "/conteudo" },
+  { label: "Contato", href: "/contato" },
 ];
 
 const Navbar = () => {
