@@ -2,6 +2,8 @@ import { Link } from "react-router-dom";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import CtaBanner from "@/components/CtaBanner";
+import andressaPhoto from "@/assets/andressa.png";
+import marcoPhoto from "@/assets/marco.jpg";
 
 const SobrePage = () => (
   <>
