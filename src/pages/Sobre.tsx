@@ -25,7 +25,7 @@ const SobrePage = () => (
     <section className="bg-surface py-24">
       <div className="container grid md:grid-cols-2 gap-12 items-start">
         <blockquote className="font-heading text-[28px] font-bold text-primary leading-snug max-w-[400px]">
-          "Não somos uma empresa de frameworks ou decks bonitos. Somos profissionais que já estiveram do lado de quem executa."
+          "Não somos uma empresa de frameworks enlatados ou decks bonitos. Somos profissionais que já estiveram do lado de quem executa."
         </blockquote>
         <p className="font-body text-base text-text-secondary leading-[1.65]">
           A Nammu nasceu da crença de que o desenvolvimento real acontece no trabalho, não em sala de aula. Trabalhamos lado a lado com as pessoas e os times, no contexto deles, com os desafios deles.
