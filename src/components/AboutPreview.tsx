@@ -16,7 +16,7 @@ const AboutPreview = () => (
 
       <div className="flex flex-col gap-6">
         <div className="bg-elevated border border-border rounded-lg p-6">
-          <span className="font-heading text-4xl font-bold text-primary">12+</span>
+          <span className="font-heading text-4xl font-bold text-primary">20+</span>
           <p className="mt-2 font-body text-sm text-text-secondary">
             anos de experiência em produto e estratégia
           </p>
