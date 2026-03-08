@@ -4,7 +4,7 @@ import nammuLogo from "@/assets/nammu-logo.png";
 
 const navLinks = [
   { label: "Sobre", href: "#sobre" },
-  { label: "Serviços", href: "#servicos" },
+  { label: "Serviços", href: "/servicos" },
   { label: "Conteúdo", href: "#conteudo" },
   { label: "Contato", href: "#contato" },
 ];
