@@ -59,7 +59,7 @@ const SobrePage = () => (
             <h3 className="font-heading text-[22px] font-bold">Marco Dubovski</h3>
             <p className="mt-1 font-body font-medium text-sm text-primary">Co-fundador</p>
             <p className="mt-4 font-body text-[15px] text-text-secondary leading-relaxed">
-              [Placeholder — adicionar bio do Marco antes de publicar]
+              Mais de 20 anos de experiência em produto, inovação e negócios, com passagens por tecnologia, serviços financeiros e e-commerce. Especialista em OKRs, Flight Levels e Fit for Purpose, com certificação internacional como trainer. Conecta estratégia e execução com clareza: do boardroom ao chão de operação.
             </p>
           </div>
         </div>
