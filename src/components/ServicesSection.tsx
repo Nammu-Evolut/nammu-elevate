@@ -64,7 +64,7 @@ const ServicesSection = () => (
 
       <div className="mt-12 text-center font-body text-base text-text-secondary">
         Não sabe qual serviço faz sentido para o seu momento?{" "}
-        <Link to="/#contato" className="text-primary font-medium hover:underline">
+        <Link to="/contato" className="text-primary font-medium hover:underline">
           Fale com a Nammu →
         </Link>
       </div>

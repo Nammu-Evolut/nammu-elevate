@@ -35,7 +35,7 @@ const ServicePage = () => {
             {service.paraQuem}
           </p>
           <Link
-            to="/#contato"
+            to="/contato"
             className="mt-8 inline-block bg-primary text-primary-foreground font-body font-medium text-base px-7 py-3.5 rounded-md hover:bg-[#7c5cff] transition-colors"
           >
             Fale com a Nammu

@@ -53,7 +53,7 @@ const HeroSection = () => (
             Conheça os serviços
           </a>
           <a
-            href="#contato"
+            href="/contato"
             className="border border-primary text-primary font-body font-medium text-base px-7 py-3.5 rounded-md bg-transparent hover:bg-primary-muted transition-colors"
           >
             Fale com a Nammu
