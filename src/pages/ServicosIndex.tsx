@@ -35,14 +35,31 @@ const ServicosIndex = () => (
             <Link
               key={s.slug}
               to={`/servicos/${s.slug}`}
-              className="bg-surface border border-border rounded-lg p-8 hover:border-primary hover:bg-elevated transition-all duration-200 group"
+              className="bg-surface border border-border rounded-lg p-8 hover:border-primary hover:bg-elevated transition-all duration-200 group flex flex-col"
             >
-              <Icon size={24} className="text-primary" />
+              <div className="flex items-start justify-between gap-3">
+                <Icon size={24} className="text-primary shrink-0 mt-0.5" />
+                {s.formato && (
+                  <span className="bg-primary text-primary-foreground font-body font-medium text-xs px-3 py-1 rounded-full shrink-0">
+                    {s.formato}
+                  </span>
+                )}
+              </div>
               <h3 className="mt-4 font-heading text-xl font-bold">{s.name}</h3>
-              <p className="mt-3 font-body text-[15px] text-text-secondary leading-relaxed line-clamp-3">
+              <p className="mt-3 font-body text-[15px] text-text-secondary leading-relaxed line-clamp-2">
                 {s.paraQuem}
               </p>
-              <span className="mt-4 inline-block font-body font-medium text-sm text-primary group-hover:underline">
+              {s.destaques && (
+                <ul className="mt-4 flex flex-col gap-2">
+                  {s.destaques.map((d, j) => (
+                    <li key={j} className="flex items-start gap-2 font-body text-[13px] text-text-secondary">
+                      <span className="text-primary font-bold mt-px shrink-0">✓</span>
+                      {d}
+                    </li>
+                  ))}
+                </ul>
+              )}
+              <span className="mt-5 inline-block font-body font-medium text-sm text-primary group-hover:underline">
                 Saiba mais →
               </span>
             </Link>

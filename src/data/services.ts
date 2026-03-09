@@ -4,6 +4,8 @@ export interface ServiceData {
   paraQuem: string;
   entregas: string[];
   themes?: string[];
+  formato?: string;
+  destaques?: string[];
 }
 
 export const services: ServiceData[] = [
@@ -16,6 +18,12 @@ export const services: ServiceData[] = [
       "Objetivos claros e plano de desenvolvimento personalizado",
       "Ferramentas práticas para vencer os obstáculos no dia a dia",
       "Acompanhamento síncrono e assíncrono em cada etapa do processo",
+    ],
+    formato: "Individual",
+    destaques: [
+      "Plano de desenvolvimento personalizado",
+      "Acompanhamento síncrono e assíncrono",
+      "Foco em um obstáculo ou habilidade específica",
     ],
   },
   {
@@ -36,6 +44,12 @@ export const services: ServiceData[] = [
       "Estratégia",
       "Gestão de Conflitos",
     ],
+    formato: "Times",
+    destaques: [
+      "Formato e carga horária desenhados para o grupo",
+      "Presencial ou remoto, com foco em prática",
+      "6 temas disponíveis: Liderança, OKRs, Produto, Estratégia...",
+    ],
   },
   {
     slug: "palestras",
@@ -46,6 +60,12 @@ export const services: ServiceData[] = [
       "Apresentação de 1 hora, interativa e adaptada ao público",
       "Material estruturado sobre o tema abordado",
       "Avaliação de percepção ao final para medir o impacto junto aos participantes",
+    ],
+    formato: "Evento",
+    destaques: [
+      "A partir de 1 hora, interativo e adaptado ao público",
+      "Material estruturado incluso",
+      "Avaliação de percepção ao final",
     ],
   },
   {
@@ -58,6 +78,12 @@ export const services: ServiceData[] = [
       "A Nammu entra, resolve e transfere o conhecimento no processo",
       "Sem criar dependência: o objetivo é que a equipe saia mais capaz",
     ],
+    formato: "Corporativo",
+    destaques: [
+      "Diagnóstico, plano de ação e execução lado a lado",
+      "A Nammu entra, resolve e transfere o conhecimento",
+      "Sem criar dependência no time",
+    ],
   },
   {
     slug: "executive-as-a-service",
@@ -68,6 +94,12 @@ export const services: ServiceData[] = [
       "Atuação direta no papel, em formato híbrido ou remoto",
       "Dedicação definida pelo contexto: de alguns dias por semana a tempo integral",
       "Ciclos de 6 meses com objetivos e entregas claros",
+    ],
+    formato: "Corporativo",
+    destaques: [
+      "Atuação direta no papel (COO, CPO, Head de Produto)",
+      "Ciclos de 6 meses com objetivos e entregas claros",
+      "Dedicação definida pelo contexto",
     ],
   },
 ];
