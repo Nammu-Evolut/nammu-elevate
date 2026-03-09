@@ -46,7 +46,7 @@ const ServicosIndex = () => (
                 )}
               </div>
               <h3 className="mt-4 font-heading text-xl font-bold">{s.name}</h3>
-              <p className="mt-3 font-body text-[15px] text-text-secondary leading-relaxed line-clamp-2">
+              <p className="mt-3 font-body text-[15px] text-text-secondary leading-relaxed">
                 {s.paraQuem}
               </p>
               {s.destaques && (
